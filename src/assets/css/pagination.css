@@ -1,0 +1,45 @@
+.page-link {
+    background: #F6F6FA;
+    border-radius: 10px!important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #462d89;
+    background-color: #F6F6FA;
+    border: 1.5px solid #462d89!important;
+}
+
+.back-text {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #4A2C8E;
+}
+
+.next-text {
+    margin-right: 10px;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #4A2C8E;
+}
