@@ -63,7 +63,7 @@ const checkTokenExpirationMiddleware = (): number => {
     const decoded = jwtDecode<JwtPayload>(refreshToken);
     return ((decoded.exp || 0) * 1000) - 60000
   }
-  return 0;
+  return 60000;
 };
 
 const clearData = () => {

@@ -1,4 +1,4 @@
-import {IUser} from "../../interfaces/auth-interface";
+//import {IUser} from "../../interfaces/user-interface";
 import {LOGIN} from "../../constants/constants";
 
 export interface IActionAuth {
